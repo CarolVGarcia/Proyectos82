@@ -1,0 +1,44 @@
+body {
+    background-color: #3D103C; 
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #690755; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .container h1 {
+    text-align: center;
+    color: #eef0f6; 
+  }
+  
+  .container #breeds,
+  .container #getRandomDogBtn {
+    display: block;
+    margin: 10px auto;
+    background-color: #0B4AF9; 
+    color: #FFFFFF; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container #breeds:hover,
+  .container #getRandomDogBtn:hover {
+    background-color: #02CEFC; 
+  }
+  
+  .container #dogImageContainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .container #dogImageContainer img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
